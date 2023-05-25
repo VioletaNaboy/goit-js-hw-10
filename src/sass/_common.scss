@@ -1,1 +1,29 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  padding: 50px;
+  font-size: 20px;
+}
+.hidden {
+  display: none;
+}
+.breed-select {
+  margin-bottom: 50px;
+}
+.cat-info {
+  display: flex;
+  gap: 28px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title-select {
+  margin-top: 0;
+}
+.info-select {
+  font-size: 30px;
+}
+.temperament-select {
+  font-size: 25px;
+}
